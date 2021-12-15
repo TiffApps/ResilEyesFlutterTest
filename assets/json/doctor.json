@@ -3,7 +3,7 @@
         "name": "Alice",
         "imageUrl" : "assets/persos/alice.png",
         "occupation" : "Therapist",
-        "desc" : "Dr Alice is an expereciend specialist who is constantly imroving her skills.",
+        "desc" : "Dr Alice is an experienced specialist who is constantly improving her skills.",
         "location" : {
             "name" : "Lotus Medical Center",
             "address" : "3516 W. Gray St. Utica, Pennsylvania"
@@ -15,7 +15,7 @@
                     "name": "Alain",
                     "imageUrl": "assets/persos/alain.png" 
                 },
-                "commentary" : "Many thanks to Dr Alice! She is professional and competent doctor."
+                "commentary" : "Many thanks to Dr Alice! She is professional and a competent doctor."
             },
             {
                 "ranking" : 4.7,
@@ -23,7 +23,7 @@
                     "name": "Katy",
                     "imageUrl": "assets/persos/katy.png" 
                 },
-                "commentary" : "Many thanks to Dr Alice! She is professional and competent doctor."
+                "commentary" : "Many thanks to Dr Alice! She is professional and a competent doctor."
             }
 
         ]
@@ -32,7 +32,7 @@
         "name": "Bastien",
         "imageUrl" : "assets/persos/bastien.png",
         "occupation" : "Pediatrician",
-        "desc" : "Dr Bastien is an expereciend specialist who is constantly imroving her skills.",
+        "desc" : "Dr Bastien is an experienced specialist who is constantly improving his skills.",
         "location" : {
             "name" : "Lotus Medical Center",
             "address" : "3516 W. Gray St. Utica, Pennsylvania"
@@ -52,7 +52,7 @@
                     "name": "Maria",
                     "imageUrl": "assets/persos/maria.png" 
                 },
-                "commentary" : "Many thanks to Dr Bastien! He is professional and competent doctor."
+                "commentary" : "Many thanks to Dr Bastien! He is professional and a competent doctor."
             }
 
         ]
@@ -61,7 +61,7 @@
         "name": "Théo",
         "imageUrl" : "assets/persos/theo.png",
         "occupation" : "Cardiologist",
-        "desc" : "Dr Théo is an expereciend specialist who is constantly imroving her skills.",
+        "desc" : "Dr Théo is an experienced specialist who is constantly improving his skills.",
         "location" : {
             "name" : "Lotus Medical Center",
             "address" : "3516 W. Gray St. Utica, Pennsylvania"
@@ -81,7 +81,7 @@
                     "name": "Maria",
                     "imageUrl": "assets/persos/maria.png" 
                 },
-                "commentary" : "Many thanks to Dr Théo! He is professional and competent doctor."
+                "commentary" : "Many thanks to Dr Théo! He is professional and a competent doctor."
             }
 
         ]
@@ -90,7 +90,7 @@
         "name": "Nadia",
         "imageUrl" : "assets/persos/nadia.png",
         "occupation" : "Pediatrician",
-        "desc" : "Dr Nadia is an expereciend specialist who is constantly imroving her skills.",
+        "desc" : "Dr Nadia is an experienced specialist who is constantly improving her skills.",
         "location" : {
             "name" : "Lotus Medical Center",
             "address" : "3516 W. Gray St. Utica, Pennsylvania"
@@ -102,7 +102,7 @@
                     "name": "Morgane",
                     "imageUrl": "assets/persos/morgane.png" 
                 },
-                "commentary" : "Really cool with children !"
+                "commentary" : "Really cool with children!"
             },
             {
                 "ranking" : 4.5,
@@ -110,7 +110,7 @@
                     "name": "Maria",
                     "imageUrl": "assets/persos/maria.png" 
                 },
-                "commentary" : "Many thanks to Dr Nadia! SHe is professional and competent doctor."
+                "commentary" : "Many thanks to Dr Nadia! She is professional and a competent doctor."
             }
 
         ]
@@ -119,7 +119,7 @@
         "name": "Jason",
         "imageUrl" : "assets/persos/jason.png",
         "occupation" : "Pediatrician",
-        "desc" : "Dr Jason an expereciend specialist who is constantly imroving her skills.",
+        "desc" : "Dr Jason an experienced specialist who is constantly improving his skills.",
         "location" : {
             "name" : "Lotus Medical Center",
             "address" : "3516 W. Gray St. Utica, Pennsylvania"
@@ -131,7 +131,7 @@
                     "name": "Morgane",
                     "imageUrl": "assets/persos/morgane.png" 
                 },
-                "commentary" : "Worst doctor ever ! If only I could give a 0 star !"
+                "commentary" : "Worst doctor ever! If only I could give a 0 star!"
             },
             {
                 "ranking" : 4.5,
@@ -139,10 +139,8 @@
                     "name": "Maria",
                     "imageUrl": "assets/persos/maria.png" 
                 },
-                "commentary" : "Many thanks to Dr Jason! He is professional and competent doctor."
+                "commentary" : "Many thanks to Dr Jason! He is professional and a competent doctor."
             }
-
         ]
     }
-
 ]
