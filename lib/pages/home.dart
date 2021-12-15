@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:resileyes_flutter_test/models/doctor.dart';
 import 'package:resileyes_flutter_test/models/perso.dart';
 import 'package:resileyes_flutter_test/pages/view_doctor.dart';
+import 'package:resileyes_flutter_test/pages/widgets/average_doctor_note.dart';
 import 'package:resileyes_flutter_test/utils/constants.dart';
 import 'package:resileyes_flutter_test/utils/scale_route.dart';
 
@@ -44,13 +45,6 @@ class _HomePageState extends State<HomePage> {
         await rootBundle.loadString('assets/json/perso.json');
     // Since normally it would have only one user, I used [0] as it doesn't make sense to have a List here anyway
     return Perso.fromJson(json.decode(response)[0]);
-  }
-
-  String _calculateRanking(List<Reviews> reviews) {
-    return double.parse((reviews.map((m) => m.ranking).reduce((a, b) => a + b) /
-                reviews.length)
-            .toStringAsFixed(1))
-        .toString();
   }
 
   Widget buildVisit(String type) {
@@ -234,9 +228,12 @@ class _HomePageState extends State<HomePage> {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                SizedBox(
-                                  height: 50,
-                                  child: Image.asset(doctors[index].imageUrl),
+                                CircleAvatar(
+                                  backgroundColor: Colors.transparent,
+                                  radius: 30,
+                                  child: Image.asset(
+                                    doctors[index].imageUrl,
+                                  ),
                                 ),
                                 const SizedBox(
                                   height: 20,
@@ -251,11 +248,8 @@ class _HomePageState extends State<HomePage> {
                                     color: Colors.grey[600],
                                   ),
                                 ),
-                                Text(
-                                  Emojis.star +
-                                      _calculateRanking(doctors[index].reviews),
-                                  style: const TextStyle(fontSize: 17),
-                                )
+                                AverageDoctorNote(
+                                    reviews: doctors[index].reviews),
                               ],
                             ),
                           ),
